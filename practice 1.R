@@ -24,7 +24,7 @@ new_data
 include_list1 <- managers[8:9]
 include_list1
 
-#drop column
+#drop columns for manager
 managers1
 managers1 <- subset(managers, select = -c(Q3,Q4)) 
 
